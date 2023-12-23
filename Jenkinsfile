@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'sudo cp /var/lib/jenkins/workspace/website/* /var/www/html/'
+                sh 'sudo cp /var/lib/jenkins/workspace/apache2/* /var/www/html/'
             }
         }
     }
